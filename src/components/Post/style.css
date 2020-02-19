@@ -1,0 +1,38 @@
+div#post{
+  width: 700px;
+  height: auto;
+  padding: 20px 25px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.133916);
+  border-radius: 4px;
+  margin-top: 30px;
+}
+div#author{
+  display: flex;
+  flex-direction: row;
+}
+div#author img{
+  height: 32px;
+  width: 32px;
+  border-radius: 25px;
+}
+div#info{
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+span#name{
+  font-size: 18px;
+  color: #141414;
+}
+span#date{
+  font-size: 13px;
+  color: #b3b0aa;
+}
+p{
+  margin: 20px 0;
+}
+hr{
+  border: 0.7px solid #EEEEEE;
+  padding: 0;
+}
